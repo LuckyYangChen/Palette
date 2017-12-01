@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.normal:
                 drawView.paint.setMaskFilter(null);
+                break;
             case R.id.blur:
                 drawView.paint.setMaskFilter(blur);
                 break;
